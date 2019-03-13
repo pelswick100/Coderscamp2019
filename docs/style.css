@@ -1,0 +1,109 @@
+section { 
+    background: whitesmoke; 
+    width: 70%;
+    height: 100%;
+    float: right;
+    box-sizing: border-box;
+}
+
+aside { 
+    background: black; 
+    width:30%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.bok{
+    font: 14px Arial, sans-serif; 
+    color: white; 
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+#portret{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    width: 37%;
+    height: 30%;
+}
+
+h1 {
+    font: 35px Georgia, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font: 25px Georgia, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font: 20px Georgia, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+}
+
+.liniaboczna{
+    color: white;
+}
+
+.tytuly h1{
+    font: 35px Georgia,
+    sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.tytuly{
+    font: 18px Arial,
+    sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.listaedu{
+    text-align: left;
+    white-space: pre;
+    line-height: 10px;
+}
+
+.tytuly h3 {
+    font: Georgia,
+        sans-serif;
+    color: black;
+    text-align: left;
+}
+
+.zdjecia{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a:link{
+font: 14px Arial,
+sans-serif;
+color: white;
+text-align: center;
+letter-spacing: 2px;
+line-height: 30px;
+text-decoration: underline;
+}
+
+a:visited{
+font: 14px Arial, sans-serif;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-decoration: underline;
+}
